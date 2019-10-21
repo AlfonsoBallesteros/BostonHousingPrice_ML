@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Predecir precio de las casas (Boston)</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" 
+    integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+<body>
+    <nav class="navbar navbar-dark bg-dark">
+        <span class="navbar-brand mb-0 h1">Predecir precio de las casas (Boston)</span>
+    </nav>  
+    <div class="container">
+        <span id="respuesta"></span>
+        <div class="card my-4">
+            <h5 class="card-header">Estadisticas de las ciudades (Boston)</h5>
+            <div class="card-body">
+            <form id="formulario">
+                <div class="row">
+                    <div class="col">
+                        <label for="">Tasa de criminalidad </label>
+                        <input type="num" name="CRIM"  step="0.00001" class="form-control" placeholder="Ej: 0.06" required />
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                            Porcentaje de la criminalidad per cápita por ciudad.
+                        </small>
+                    </div>
+                    <div class="col">
+                        <label for="">Proporción de tierra residencial</label>
+                        <input type="num" name="ZN" step="0.1" class="form-control" placeholder="Ej: 12.0" required>
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                            Porcentaje de tierra residencial dividida en zonas para lotes de más de 25,000 pies cuadrados.
+                        </small>
+                    </div>
+                    <div class="col">
+                        <label for="">Proporción de acres de negocios</label>
+                        <input type="num" name="INDUS" step="0.001"  class="form-control" placeholder="Ej: 2.31" required>
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                                Porcentaje de acres de negocios no minoristas por ciudad
+                        </small>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <label for="validationDefault01">Ubicacion</label>
+                        <select name="CHAS" class="custom-select mr-sm-2" id="inlineFormCustomSelect" required>
+                            <option selected>Seleccionar</option>
+                            <option value="0" >Lejos del rio</option>
+                            <option value="1" >Cerca al rio</option>
+                        </select>
+                        <small id="passwordHelpBlock" class="form-text text-muted" required>
+                            Charles River ¿La vivienda limita con el río o no ?
+                        </small>
+                    </div>
+                    <div class="col">
+                        <label for="">Concentración de óxidos nítricos</label>
+                        <input type="num" name="NOX" step="0.001"  class="form-control" placeholder="Ej: 0.53" required>
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                            Concentración de óxidos nítricos (partes por 10 millones)
+                        </small>
+                    </div>
+                    <div class="col">
+                         <label for="">Numero de habitaciones</label>
+                        <input type="num" name="RM" step="0.0001"  class="form-control" placeholder="Ej: 6.575" required>
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                                Número promedio de habitaciones por vivienda
+                        </small>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                        <label for="">Edad</label>
+                        <input type="num" name="AGE" step="0.001"  class="form-control" placeholder="Ej: 65.2" required>
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                                Proporción de unidades ocupadas por el propietario construidas antes de 1940
+                        </small>
+                    </div>
+                    <div class="col">
+                        <label for="">Distancia de empleadores</label>
+                        <input type="num" name="DIS" step="0.001"  class="form-control" placeholder="Ej: 4.090" required>
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                            Distancias ponderadas a cinco centros de empleo de Boston
+                        </small>
+                    </div>
+                    <div class="col">
+                        <label for="">Accesibilidad a las autopistas</label>
+                        <input type="num" name="RAD" step="0.001"  class="form-control" placeholder="Ej: 1" required>
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                            Indice de accesibilidad a las autopistas radiales.
+                        </small>
+                    </div>
+                </div>
+                <br>
+                <div class="row">
+                    <div class="col">
+                         <label for="">Impuesto</label>
+                        <input type="num" name="TAX" step="0.001"  class="form-control" placeholder="Ej: 22" required>
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                                Tasa impositiva sobre el valor total de la propiedad por $ 10,000
+                        </small>
+                    </div>
+                    <div class="col">
+                        <label for="">Cercania a Educadores</label>
+                        <input type="num" name="PTRATIO" step="0.001"  class="form-control" placeholder="Ej: 15.3" required>
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                                Relación alumno-profesor por localidad
+                        </small>
+                    </div>
+                    <div class="col">
+                        <label for="">Porcentaje de afroamericanos</label>
+                        <input type="num" name="B" step="0.0001" class="form-control" placeholder="Ej: 396.0" required>
+                        <small id="passwordHelpBlock" class="form-text text-muted">
+                                Proporción de afroamericanos por ciudad
+                        </small>
+                    </div>
+                </div>
+                <br>
+                <div class="row form-inline">
+                    <div class="col form-group">
+                        <label for="">Estado de la población</label>
+                        <input type="num" name="LSTAT" step="0.001" class="form-control my-1 mx-sm-3" placeholder="Ej: 498" required>
+                        <small id="passwordHelpInline" class="text-muted">
+                            Porcentaje menor del estado de la poblacion
+                        </small>
+                    </div>
+                </div>
+                <br>
+                <button type="submit" class="btn btn-success btn-lg btn-block">Predecir</button>
+            </form>
+            </div>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
