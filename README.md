@@ -1,6 +1,10 @@
 <h1 align="center">Welcome to BostonHousingPrice_ML 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-0.0.1-blue.svg?cacheSeconds=2592000" />
+  <img alt="Python" src="https://img.shields.io/pypi/pyversions/pip" />
+  <img alt="Language" src="https://img.shields.io/github/languages/top/AlfonsoBallesteros/BostonHousingPrice_ML" />
+  <img alt="issues" src="https://img.shields.io/github/issues/AlfonsoBallesteros/BostonHousingPrice_ML" />
+  <img alt="issues" src="https://img.shields.io/github/last-commit/AlfonsoBallesteros/BostonHousingPrice_ML" />
   <a href="https://github.com/AlfonsoBallesteros/BostonHousingPrice_ML/blob/master/LICENSE" target="_blank">
     <img alt="License: MIT" src="https://img.shields.io/badge/License-MIT-yellow.svg" />
   </a>
