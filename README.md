@@ -89,14 +89,14 @@ python app.py
 }
 ```
 # Plantilla de proyecto de Python
-=========================
+
 ## 1. Prepare el problema
-    ### a) Cargar bibliotecas
-    ### b) Cargar conjunto de datos
+    a) Cargar bibliotecas
+    b) Cargar conjunto de datos
 
 ## 2. Resumir datos
-    ### a) Estadísticas descriptivas
-    ### b) Visualizaciones de datos
+    a) Estadísticas descriptivas
+    b) Visualizaciones de datos
 
 ## 3. Preparar datos
     a) Limpieza de datos
@@ -110,8 +110,8 @@ python app.py
     d) Comparar algoritmos
 
 ## 5. Mejora la precisión
-    ### a) Ajuste del algoritmo
-    ### b) Conjuntos
+    a) Ajuste del algoritmo
+    b) Conjuntos
 
 ## 6. Finalizar modelo
     a) Predicciones sobre el conjunto de datos de validación
