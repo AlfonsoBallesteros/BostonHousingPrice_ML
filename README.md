@@ -136,9 +136,9 @@ python app.py
 
 # Conclusion and Recommendations
 
-    This project builds an information system capable of predicting the price of houses in the city 
-    of Boston. We train models with different algorithms and optimization methods to obtain a more
-    optimal result
+    This project was built an information system capable of predicting the price of houses 
+    in the city of Boston. We train models with different algorithms and optimization
+    methods to obtain a more optimal result.
 
     good hacking!
 
