@@ -62,6 +62,8 @@ Metric | Result
 -- | --
 MeanSquaredError | 11.8752520792
 
+    We can see that the estimated mean squared error is 11.8, close to our estimate of -9.3.
+
 ## Install
 
 ```sh
