@@ -15,9 +15,26 @@
 
 # BostonHousingPrice_ML
 
-Bulding model with data set Housing-price-data
+  Build a machine learning regression model with the Housing-price-data dataset
+
+# Problem
+
+    For this project we will investigate the Boston House Price dataset. Each record in the database
+    describes a Boston suburb or town. The data was drawn from the Boston Standard Metropolitan
+    Statistical Area (SMSA) in 1970.
+
+# Objetive
+
+      We will learn:
+
+      * How to work through a regression predictive modeling problem end-to-end.
+      * How to use data transforms to improve model performance.
+      * How to use algorithm tuning to improve model performance.
+
+      *How to use ensemble methods and tuning of ensemble methods to improve model performance.
 
 ## Outbuildings
+
     1. Numpy
     2. Matplotlib
     3. Pandas
@@ -27,17 +44,23 @@ Bulding model with data set Housing-price-data
       4.3. ElasticNet
       4.4. KNeighborsRegressor
       4.5. DecisionTreeRegressor
-      4.6. SVM
+      4.6. Support Vector Machine
       4.7. Performace:
         4.7.1. RandomForestRegressor
         4.7.2. GradientBoostingRegressor
         4.7.3. ExtraTreeRegressor
         4.7.4. AdaBoostRegressor
-      4.8. Metricas
+      4.8. Metrics
         4.8.1. MeanSquaredError
     5. DataSet: Boston Housing Data (housing.csv)
     6. Backend: Flask
     7. Frontend: Vanilla Javascript
+
+# Results
+
+    Metric | Result
+    -- | --
+    MeanSquaredError | 11.8752520792
 
 ## Install
 
@@ -88,6 +111,14 @@ python app.py
     "LSTAT":  4.98
 }
 ```
+
+# Conclusion and Recommendations
+
+    Trabajar en este estudio de caso le mostró cómo las recetas para el aprendizaje automático específico.
+    
+    Las tareas se pueden agrupar en un proyecto completo. Trabajar en este estudio de caso es bueno
+    practique el aprendizaje automático aplicado utilizando Python y scikit-learn.
+
 # Plantilla de proyecto de Python
 
 ## 1. Prepare el problema
