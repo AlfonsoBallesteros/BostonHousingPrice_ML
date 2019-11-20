@@ -58,9 +58,9 @@
 
 # Results
 
-    Metric | Result
-    -- | --
-    MeanSquaredError | 11.8752520792
+Metric | Result
+-- | --
+MeanSquaredError | 11.8752520792
 
 ## Install
 
@@ -114,10 +114,9 @@ python app.py
 
 # Conclusion and Recommendations
 
-    Trabajar en este estudio de caso le mostró cómo las recetas para el aprendizaje automático específico.
-    
-    Las tareas se pueden agrupar en un proyecto completo. Trabajar en este estudio de caso es bueno
-    practique el aprendizaje automático aplicado utilizando Python y scikit-learn.
+    Working through this case study showed you how the recipes for specific machine learning
+    tasks can be pulled together into a complete project. Working through this case study is good
+    practice at applied machine learning using Python and scikit-learn.
 
 # Plantilla de proyecto de Python
 
