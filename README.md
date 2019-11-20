@@ -15,14 +15,13 @@
 
 # BostonHousingPrice_ML
 
-  Build a machine learning regression model with the Housing-price-data dataset
+  We will build an information system with regression machine learning that uses the 
+  Housing-price-data dataset
 
 # Problem
 
     For this project we will build an information system to predict housing prices in the city of
-    Boston with the Boston House Price data set. Each record in the database describes a suburb or
-    city of Boston. Data were extracted from the Boston Standard Metropolitan Statistical area (SMSA)
-    in 1970.
+    Boston with the Boston House Price data set. 
 
 # Objetive
 
