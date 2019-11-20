@@ -19,11 +19,16 @@
 
 # Problem
 
-    For this project we will build an information system to predict housing prices in the city of Bosto with the Boston House Price data set. Each record in the database
-    describes a suburb or city of Boston. Data were extracted from the Boston Standard Metropolitan
-    Statistical area (SMSA) in 1970.
+    For this project we will build an information system to predict housing prices 
+    in the city of Bosto with the Boston House Price data set. 
+    Each record in the database describes a suburb or city of Boston. 
+    Data were extracted from the Boston Standard Metropolitan Statistical area (SMSA) in 1970.
 
 # Objetive
+
+      We will build an information system to predict the price of houses in the city of bostson. 
+      We will develop the model with machine learning  and use the Boston House Price data set. 
+      in order to find the price of the houses depending on the variables of the data set
 
       We will learn:
 
@@ -132,9 +137,11 @@ python app.py
 
 # Conclusion and Recommendations
 
-    Working through this case study showed you how the recipes for specific machine learning
-    tasks can be pulled together into a complete project. Working through this case study is good
-    practice at applied machine learning using Python and scikit-learn.
+    This project builds an information system capable of predicting the price of houses
+    in the city of Boston. We train models with different algorithms and 
+    optimization methods to obtain a more optimal result
+
+good hacking
 
 # Plantilla de proyecto de Python
 
